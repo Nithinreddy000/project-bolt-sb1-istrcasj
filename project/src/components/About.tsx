@@ -11,7 +11,7 @@ export const About = () => {
         className="w-96 h-96 absolute -right-48 top-0 opacity-20"
       />
 
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4 relative z-auto">
         <SectionTitle>About Me</SectionTitle>
         
         <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -21,13 +21,13 @@ export const About = () => {
             transition={{ duration: 0.5 }}
             className="space-y-6 text-lg text-gray-300"
           >
-            <p>
+            <p className='relative z-auto'>
               Full Stack Developer with expertise in React.js, Node.js, and modern web technologies.
               Currently pursuing B.Tech in Computer Science at ICFAI Foundation for Higher Education
               with a GPA of 8.42.
             </p>
             
-            <div className="bg-gray-800 p-6 rounded-xl">
+            <div className="bg-gray-800 p-6 rounded-xl relative z-auto">
               <h3 className="text-xl font-semibold mb-4 text-white">Education</h3>
               <div className="space-y-4">
                 <div>
